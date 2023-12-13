@@ -1,0 +1,56 @@
+@font-face {
+    font-family: myFont;
+    src: url(/resources/fonts/De\ Arloy\ Typeface/DeArloySS01.otf);
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url(/resources/fonts/De\ Arloy\ Typeface/DeArloy.otf);
+}
+
+body{
+    font-family: 'Life Savers', serif;
+}
+
+.navbar{
+    background-color: #fabf63;
+}
+
+.nav .nav-link.active{
+    background-color: #34425b;
+    color: #fabf63;
+}
+
+.navbar-brand,
+.navbar-brand:hover{
+    color: #fabf63;
+}
+
+.nav .nav-link{
+    color: #34425b;
+    font-weight: bold;
+}
+
+
+
+.carousel-item img{
+    max-width: 100%;
+}
+
+.section-title{
+    font-family: myFont2, cursive;;
+    color: #34425b;
+    padding-top: 20%;
+}
+
+#sobre-o-restaurante{
+    background-color: #fac06338;
+    color: #34425b;
+    font-weight: 700;
+}
+
+#horarios{
+    background-color: #fac06338;
+    color: #34425b;
+    font-weight: 700;
+}
